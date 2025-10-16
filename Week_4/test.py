@@ -1,24 +1,19 @@
-import numpy as np
+1 import pandas as pd
 2
-3 # Random data
-4 L = np . random . random (100)
-5
-6 # Summary statistics
-7 print ( np . sum( L)) # Sum of all values
-8 print ( np . min( L)) # Minimum value
-9 print ( np . max( L)) # Maximum value
-10 print ( np . mean (L)) # Mean
-11 print ( np . std ( L)) # Standard deviation
-12 print ( np . var ( L)) # Variance
-13
-14 # These also work as array methods :
-15 print (L. sum () )
-16 print (L. min () )
-17 print (L. max () )
-18 print (L. mean () )
-19 print (L. std () )
-20
-21 # Percentiles
-22 print ( np . percentile (L , 25) ) # 1st quartile
-23 print ( np . median (L )) # 50 th percentile
-24 print ( np . percentile (L , 75) ) # 3rd quartile
+3 # Top 3 states by area
+4 area = pd . Series ({ ’Alaska ’: 1723337 , ’Texas ’: 695662 ,
+5 ’California ’: 423967})
+6 # Top 3 states by population
+7 population = pd . Series ({ ’California ’: 38332521 , ’Texas ’: 26448193 ,
+8 ’New York ’: 19651127})
+9
+10 # Division aligns indices automatically !
+11 density = population / area
+12 print ( density )
+13 # Alaska NaN (no population data )
+14 # California 90.413926
+15 # New York NaN (no area data )
+16 # Texas 38.018740
+17
+18 # Result contains UNION of indices
+19 # Missing values filled with NaN
