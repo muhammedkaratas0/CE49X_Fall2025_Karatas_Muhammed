@@ -1,0 +1,95 @@
+================================================================================
+LAB 4: STATISTICAL ANALYSIS REPORT
+Descriptive Statistics and Probability Distributions
+================================================================================
+
+PART 1: CONCRETE STRENGTH ANALYSIS
+--------------------------------------------------------------------------------
+
+Descriptive Statistics:
+  Count:              100
+  Mean:               48.4668 MPa
+  Median:             32.4534 MPa
+  Mode:               10.0000 MPa
+  Standard Deviation: 36.1553 MPa
+  Variance:           1307.2040 MPa²
+  Range:              113.3115 MPa
+  IQR:                57.5446 MPa
+  Skewness:           0.5834
+  Kurtosis:           -0.9875
+
+Five-Number Summary:
+  Minimum: 10.0000 MPa
+  Q1:      16.1583 MPa
+  Median:  32.4534 MPa
+  Q3:      73.7028 MPa
+  Maximum: 123.3115 MPa
+
+Interpretation:
+  - Distribution is positively skewed (right tail)
+  - Distribution is light-tailed (platykurtic)
+  - Coefficient of Variation: 74.60%
+  - High variability (quality control needed)
+
+PART 2: MATERIAL PROPERTIES COMPARISON
+--------------------------------------------------------------------------------
+
+Summary by Material Type:
+                     mean        std         min         max
+material_type                                               
+Aluminum       202.478742  20.883844  164.425595  248.915040
+Composite      178.777618  19.393952  131.456040  226.320476
+Concrete        30.013163   3.010803   22.585066   36.812079
+Steel          243.008816  21.607968  204.877947  297.735416
+
+PART 3: PROBABILITY APPLICATIONS
+--------------------------------------------------------------------------------
+
+3.1 Binomial Distribution (Quality Control):
+    Scenario: 100 components tested, 5% defect rate
+    P(exactly 3 defects) = 0.1396
+    P(≤ 5 defects) = 0.6160
+
+3.2 Poisson Distribution (Bridge Loads):
+    Scenario: Average 10 heavy trucks per hour
+    P(exactly 8 trucks) = 0.1126
+    P(> 15 trucks) = 0.0487
+
+3.3 Normal Distribution (Steel Yield Strength):
+    Scenario: Mean = 250 MPa, Std = 15 MPa
+    P(X > 280 MPa) = 0.0228 (2.28%)
+    95th percentile = 274.6728 MPa
+
+3.4 Exponential Distribution (Component Lifetime):
+    Scenario: Mean lifetime = 1000 hours
+    P(failure before 500h) = 0.3935
+    P(survive beyond 1500h) = 0.2231
+
+3.5 Bayes' Theorem (Damage Detection):
+    Scenario: Base rate = 5%, Sensitivity = 95%, Specificity = 90%
+    Prior: P(Damage) = 0.0500
+    Posterior: P(Damage | Test+) = 0.3333
+    This means if test is positive, there is 33.3% chance of actual damage
+
+ENGINEERING IMPLICATIONS
+--------------------------------------------------------------------------------
+
+1. Quality Control:
+   - Descriptive statistics help identify variability in concrete strength
+   - High CV suggests need for better quality control procedures
+
+2. Design Specifications:
+   - Material property distributions inform safety factors
+   - Percentile values used for characteristic strength calculations
+
+3. Risk Assessment:
+   - Probability distributions model uncertainty in loads and strengths
+   - Bayes' theorem helps update risk estimates with new information
+
+4. Decision Making:
+   - Statistical analysis provides quantitative basis for engineering decisions
+   - Probability calculations inform inspection and maintenance strategies
+
+================================================================================
+END OF REPORT
+================================================================================
