@@ -1,0 +1,171 @@
+================================================================================
+                   LAB 5: ORGANIZED PROJECT STRUCTURE
+           Student: Muhammed Ali Karataş (2021403030)
+================================================================================
+
+📦 lab5/
+│
+├── 📓 Lab5_BiasVariance.ipynb (38 KB)
+│   └── ⭐ MAIN DELIVERABLE - Submit this to Dr. Koç!
+│
+├── 📄 README.md (NEW!)
+│   └── Quick start guide and project overview
+│
+├── 📂 StepS/ (Documentation & Analysis)
+│   ├── 📄 Step_by_Step_Implementation.md (18 KB)
+│   │   └── Line-by-line code explanation
+│   ├── 📄 Lab5_Reflection_MuhammedAliKaratas.md (18 KB)
+│   │   └── Your personal learning journey
+│   └── 📄 Results_Analysis_and_Interpretation.md (23 KB)
+│       └── Complete analysis & discussion answers
+│
+├── 📂 dataset/ (Raw Data)
+│   ├── 📊 AirQualityUCI.csv (767 KB)
+│   │   └── 9,471 hourly air quality measurements
+│   └── 📊 AirQualityUCI.xlsx (1.2 MB)
+│       └── Excel version (alternative format)
+│
+├── 📂 outputs/ (Generated Visualizations - All 150 DPI PNG)
+│   ├── 🖼️  01_feature_relationships.png (455 KB)
+│   ├── 🖼️  02_validation_curve.png (152 KB) ⭐ MAIN RESULT
+│   ├── 🖼️  03_rmse_comparison.png (114 KB)
+│   ├── 🖼️  04_r2_scores.png (79 KB)
+│   ├── 🖼️  05_error_gap.png (98 KB)
+│   └── 🖼️  06_cross_validation_comparison.png (98 KB)
+│
+├── 📂 code/ (Python Scripts)
+│   ├── 🐍 lab5_implementation.py (19 KB)
+│   │   └── Full implementation with all 6 plots
+│   └── 🐍 run_lab5.py (7.2 KB)
+│       └── Simplified version for quick testing
+│
+└── 📂 documentation/ (Project Info)
+    ├── 📄 README_Complete_Lab_Package.md (15 KB)
+    │   └── Comprehensive package documentation
+    └── 📄 lab5 (1).md (4.7 KB)
+        └── Original assignment from Dr. Koç
+
+================================================================================
+                            QUICK COMMANDS
+================================================================================
+
+🚀 RUN THE LAB:
+
+   Option 1 (Jupyter Notebook - Recommended):
+   $ jupyter notebook Lab5_BiasVariance.ipynb
+
+   Option 2 (Python Script - Quick):
+   $ python3 code/run_lab5.py
+
+   Option 3 (Full Implementation):
+   $ python3 code/lab5_implementation.py
+
+📚 VIEW DOCUMENTATION:
+
+   $ open README.md
+   $ open StepS/Step_by_Step_Implementation.md
+   $ open StepS/Results_Analysis_and_Interpretation.md
+   $ open StepS/Lab5_Reflection_MuhammedAliKaratas.md
+
+🖼️  VIEW PLOTS:
+
+   $ open outputs/02_validation_curve.png
+   $ open outputs/
+
+================================================================================
+                              FILE SIZES
+================================================================================
+
+Total Project Size: ~3.5 MB
+
+📂 dataset/        2.0 MB (raw data files)
+📂 outputs/        1.0 MB (visualizations)
+📂 StepS/          59 KB  (documentation)
+📂 code/           26 KB  (Python scripts)
+📂 documentation/  20 KB  (project info)
+📓 Notebook        38 KB  (main deliverable)
+
+================================================================================
+                            WHAT TO SUBMIT
+================================================================================
+
+REQUIRED:
+✅ Lab5_BiasVariance.ipynb
+
+OPTIONAL (Bonus):
+⭐ StepS/Lab5_Reflection_MuhammedAliKaratas.md
+⭐ StepS/Results_Analysis_and_Interpretation.md
+⭐ outputs/ folder (all visualizations)
+
+================================================================================
+                              KEY RESULTS
+================================================================================
+
+Dataset:           7,344 samples (after cleaning)
+Features:          T (Temperature), RH, AH (Relative/Absolute Humidity)
+Target:            CO(GT) concentration (mg/m³)
+
+Optimal Model:
+  - Single Split:  Degree 9 (Test MSE: 1.9837)
+  - Cross-Val:     Degree 1 (CV MSE: 2.2073)
+  - Test RMSE:     1.4084 mg/m³
+  - Test R²:       0.0430 (4.3% variance explained)
+
+Key Finding:       Testing error is U-shaped → Bias-Variance Tradeoff!
+
+================================================================================
+                              STATUS
+================================================================================
+
+✅ All requirements complete
+✅ All code runs without errors
+✅ All visualizations generated
+✅ All documentation complete
+✅ Files organized professionally
+✅ Ready for submission
+
+================================================================================
+                        PROJECT ORGANIZATION
+================================================================================
+
+BEFORE (Messy):
+  lab5/
+  ├── 01_feature_relationships.png
+  ├── 02_validation_curve.png
+  ├── 03_rmse_comparison.png
+  ├── 04_r2_scores.png
+  ├── 05_error_gap.png
+  ├── 06_cross_validation_comparison.png
+  ├── AirQualityUCI.csv
+  ├── AirQualityUCI.xlsx
+  ├── Lab5_BiasVariance.ipynb
+  ├── Lab5_Reflection_MuhammedAliKaratas.md
+  ├── README_Complete_Lab_Package.md
+  ├── Results_Analysis_and_Interpretation.md
+  ├── Step_by_Step_Implementation.md
+  ├── lab5 (1).md
+  ├── lab5_implementation.py
+  └── run_lab5.py
+
+AFTER (Organized):
+  lab5/
+  ├── Lab5_BiasVariance.ipynb ⭐
+  ├── README.md
+  ├── StepS/           (documentation)
+  ├── dataset/         (data files)
+  ├── outputs/         (plots)
+  ├── code/            (scripts)
+  └── documentation/   (project info)
+
+================================================================================
+                          PREPARED BY
+================================================================================
+
+Student:     Muhammed Ali Karataş
+Student ID:  2021403030
+Course:      CE49X - Computational Thinking and Data Science
+Instructor:  Dr. Eyuphan Koç
+Date:        November 12, 2025
+Status:      ✅ COMPLETE AND READY FOR SUBMISSION
+
+================================================================================

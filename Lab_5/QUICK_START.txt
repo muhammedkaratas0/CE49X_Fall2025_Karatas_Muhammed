@@ -1,0 +1,67 @@
+================================================================================
+                        LAB 5 - QUICK START GUIDE
+                   Muhammed Ali Karataş (2021403030)
+================================================================================
+
+🎯 FASTEST WAY TO RUN (Copy-paste this):
+
+    cd /Users/alikaratas/Downloads/lab5
+    ./run.sh
+
+   That's it! Takes 15 seconds.
+
+================================================================================
+
+📊 WHAT GETS GENERATED:
+
+   • outputs/plot_01_features.png
+   • outputs/plot_02_validation_curve.png
+
+   RESULT: Optimal model = Degree 9 (Test RMSE: 1.41 mg/m³)
+
+================================================================================
+
+📓 TO OPEN JUPYTER NOTEBOOK:
+
+    cd /Users/alikaratas/Downloads/lab5
+    jupyter notebook Lab5_BiasVariance.ipynb
+
+   Then: Kernel → Restart & Run All
+
+================================================================================
+
+🐛 IF YOU GET ERRORS:
+
+   Problem: "No module named 'pandas'" or "No module named 'sklearn'"
+
+   Solution: You're using wrong Python. Use this:
+
+    /Users/alikaratas/miniconda3/bin/python3 code/run_lab5.py
+
+   OR activate conda first:
+
+    conda activate base
+    python3 code/run_lab5.py
+
+================================================================================
+
+📁 FILES TO SUBMIT:
+
+   REQUIRED:
+   ✅ Lab5_BiasVariance.ipynb
+
+   OPTIONAL (for bonus points):
+   ⭐ StepS/Lab5_Reflection_MuhammedAliKaratas.md
+   ⭐ StepS/Results_Analysis_and_Interpretation.md
+   ⭐ outputs/ folder
+
+================================================================================
+
+🎉 YOUR LAB IS 100% COMPLETE AND READY!
+
+   • All code works ✓
+   • All files organized ✓
+   • All documentation complete ✓
+   • Ready to submit ✓
+
+================================================================================

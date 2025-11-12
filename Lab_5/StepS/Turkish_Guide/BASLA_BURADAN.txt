@@ -1,0 +1,278 @@
+================================================================================
+              LAB 5 - TÜRKÇE ÖĞRETİM MATERYALLERİ
+                Muhammed Ali Karataş (2021403030)
+================================================================================
+
+🎉 HAZIR! Sizin için kapsamlı Türkçe öğretim materyalleri hazırlandı!
+
+================================================================================
+                          BAŞLANGIÇ REHBERİ
+================================================================================
+
+📂 KLASÖR: /Users/alikaratas/Downloads/lab5/StepS/Turkish_Guide/
+
+📚 DÖKÜMANLAR:
+
+1. ⭐ README_TR.md
+   └─ İLK OKUMANIZ GEREKEN!
+   └─ Tüm dökümanların özeti ve okuma sırası
+
+2. 1_Machine_Learning_Temelleri_TR.md (11 KB)
+   └─ ML nedir? Sklearn nedir? Regression nedir?
+   └─ BAŞLANGIÇ için mükemmel!
+
+3. 2_Projede_Yapay_Zeka_TR.md (11 KB)
+   └─ Lab 5'te AI nerede? Nasıl çalışıyor?
+   └─ Adım adım açıklamalar
+
+4. 5_Bias_Variance_Konsepti_TR.md (9.4 KB)
+   └─ Lab'ın ANA KONUSU!
+   └─ Underfitting, Overfitting, Optimal model
+
+5. 7_Soru_Cevap_TR.md (12 KB)
+   └─ 30 sık sorulan soru
+   └─ Hızlı referans
+
+TOPLAM: 56 KB kapsamlı Türkçe içerik!
+
+================================================================================
+                          HIZLI BAŞLANGIÇ
+================================================================================
+
+🚀 3 ADIMDA BAŞLA:
+
+ADIM 1: README oku
+$ open README_TR.md
+
+ADIM 2: Senaryonu seç (README'de var)
+   - "ML'den hiç anlamıyorum" → Döküman 1, 2, 5, 7
+   - "Sadece Lab 5'i anla" → Döküman 2, 5, 7
+   - "Hızlı özet" → Döküman 7
+
+ADIM 3: Sırayla oku!
+
+================================================================================
+                        HER DÖKÜMANDA NE VAR?
+================================================================================
+
+📖 1. MACHINE LEARNING TEMELLERİ
+
+   ✓ Machine Learning nedir?
+   ✓ Sklearn ne işe yarar?
+   ✓ Supervised Learning
+   ✓ Regression konsepti
+   ✓ Training vs Testing
+   ✓ Generalization
+
+   Kimler okumalı: HERKES (özellikle ML'e yeni başlayanlar)
+   Süre: 20-30 dakika
+
+================================================================================
+
+📖 2. PROJEDE YAPAY ZEKA
+
+   ✓ Lab 5'te ne yapıyoruz?
+   ✓ AI kısım neresi?
+   ✓ Model nasıl öğreniyor?
+   ✓ Adım adım proje akışı
+   ✓ Gerçek örneklerle açıklama
+
+   Kimler okumalı: Döküman 1'i okuduktan sonra herkes
+   Süre: 25-35 dakika
+
+================================================================================
+
+📖 5. BIAS-VARIANCE KONSEPTİ ⭐ EN ÖNEMLİ!
+
+   ✓ Underfitting (yetersiz öğrenme)
+   ✓ Overfitting (aşırı öğrenme)
+   ✓ Optimal model seçimi
+   ✓ U-şeklindeki grafik
+   ✓ Lab 5'in ANA MESAJI!
+
+   Kimler okumalı: MUTLAKA HERKES!
+   Süre: 30-40 dakika
+
+================================================================================
+
+📖 7. SORU-CEVAP (30 SORU!)
+
+   ✓ Temel sorular (Sklearn nedir?)
+   ✓ Kavramsal sorular (Bias? Variance?)
+   ✓ Kod soruları (fit? predict?)
+   ✓ Grafik soruları (U-şekli neden?)
+   ✓ Problem çözme (Hatalar nasıl düzeltilir?)
+   ✓ Sınav/sunum ipuçları
+
+   Kimler okumalı: Herkes - referans olarak
+   Süre: 10-15 dakika (hızlı bakış)
+
+================================================================================
+                      ÖNERİLEN OKUMA SIRASİ
+================================================================================
+
+🎯 YENİ BAŞLAYANLAR İÇİN:
+
+   1. README_TR.md (5 dk)
+      ↓
+   2. 1_Machine_Learning_Temelleri_TR.md (25 dk)
+      ↓
+   3. 2_Projede_Yapay_Zeka_TR.md (30 dk)
+      ↓
+   4. 5_Bias_Variance_Konsepti_TR.md (35 dk)
+      ↓
+   5. 7_Soru_Cevap_TR.md (15 dk - referans)
+
+   TOPLAM: ~2 saat
+
+================================================================================
+
+🎯 HIZLI ÖZET İSTEYENLER İÇİN:
+
+   1. 7_Soru_Cevap_TR.md (tüm soruları oku)
+      ↓
+   2. 5_Bias_Variance_Konsepti_TR.md (ana konsept)
+      ↓
+   3. README_TR.md (özet bilgi)
+
+   TOPLAM: ~1 saat
+
+================================================================================
+                          ÖNEMLİ NOKTALAR
+================================================================================
+
+✅ TÜM DÖKÜMANLAR TÜRKÇE!
+✅ ADIM ADIM AÇIKLAMALAR!
+✅ GERÇEK ÖRNEKLERLE!
+✅ GÖRSELLERLEŞTİRMELER!
+✅ ANALOJILAR/BENZETMELER!
+
+================================================================================
+                          NE ÖĞRENECEKSİNİZ?
+================================================================================
+
+Bu materyalleri okuduktan sonra:
+
+✓ Machine Learning'in ne olduğunu anlayacaksınız
+✓ Sklearn'i nasıl kullanacağınızı bileceksiniz
+✓ Lab 5'in her satırını açıklayabileceksiniz
+✓ Bias-variance tradeoff'u kavrayacaksınız
+✓ Underfitting ve overfitting'i ayırt edeceksiniz
+✓ Grafikleri yorumlayabileceksiniz
+✓ Sınavda/sunumda rahatça anlatabileceksiniz!
+
+================================================================================
+                        BAŞARI İPUÇLARI
+================================================================================
+
+💡 Not tutun!
+   Anlamadığınız kısımları işaretleyin
+
+💡 Tekrar edin!
+   İlk okumada %100 anlayamazsanız normal!
+
+💡 Örnekleri deneyin!
+   Kod örneklerini çalıştırın
+
+💡 Soru sorun!
+   Anlamadığınız kısımları sorun
+
+💡 Arkadaşlarla çalışın!
+   Birbirinize açıklayarak öğrenin
+
+================================================================================
+                      DOSYALARI NASIL AÇARIM?
+================================================================================
+
+YÖNTEM 1: Terminal'den
+
+$ cd /Users/alikaratas/Downloads/lab5/StepS/Turkish_Guide/
+$ open README_TR.md
+
+YÖNTEM 2: Finder'dan
+
+1. Finder'ı aç
+2. Downloads → lab5 → StepS → Turkish_Guide
+3. Dosyalara çift tıkla
+
+YÖNTEM 3: VSCode/Text Editor
+
+1. VSCode'u aç
+2. File → Open → Turkish_Guide klasörünü seç
+3. Markdown önizlemesi ile oku
+
+================================================================================
+                          SIKÇA SORULANLAR
+================================================================================
+
+S: İngilizce bilmem gerekiyor mu?
+C: Hayır! Tüm dökümanlar Türkçe. Sadece sklearn, fit, predict gibi
+   terimler İngilizce (bunlar evrensel).
+
+S: Matematik bilmem gerekiyor mu?
+C: Temel matematik yeterli! Ağır matematik isteğe bağlı.
+   Konseptleri anlamak için matematik şart değil.
+
+S: Ne kadar sürer?
+C: Tüm dökümanlar: ~2-3 saat
+   Hızlı özet: ~1 saat
+   Kendi hızınızda ilerleyin!
+
+S: Hangi sırayla okumalıyım?
+C: README_TR.md'de detaylı senaryolar var!
+   Senaryonuzu seçin ve başlayın.
+
+S: Anlamadığım kısım varsa?
+C: 1. Tekrar okuyun (farklı açıdan bakın)
+   2. Soru_Cevap_TR.md'ye bakın
+   3. Hocaya sorun
+   4. Arkadaşlarla tartışın
+
+================================================================================
+                          DİĞER KAYNAKLAR
+================================================================================
+
+📂 Ana klasörde (../):
+   - Lab5_BiasVariance.ipynb (Jupyter notebook)
+   - Step_by_Step_Implementation.md (İngilizce detaylı)
+   - Results_Analysis_and_Interpretation.md (İngilizce analiz)
+
+📂 outputs/ klasörü:
+   - 02_validation_curve.png (ANA GRAFİK!)
+   - Diğer tüm grafikler
+
+📂 code/ klasörü:
+   - run_lab5.py (hızlı çalıştır)
+   - lab5_implementation.py (tam implementasyon)
+
+================================================================================
+                            BAŞARLAR!
+================================================================================
+
+Bu materyaller sizin için özenle hazırlandı!
+
+Muhammed Ali Karataş olarak, Lab 5'i tam anlamanız için elimden geleni
+yaptım. Umarım bu dökümanlar size yardımcı olur!
+
+📚 İyi öğrenmeler!
+🎯 Başarılar!
+🎉 Keyifli okumalar!
+
+================================================================================
+
+ŞİMDİ NE YAPMALI?
+
+1. README_TR.md dosyasını açın
+2. Senaryonuzu seçin
+3. Okumaya başlayın!
+
+HEMEN BAŞLA:
+$ open README_TR.md
+
+================================================================================
+
+Hazırlayan: Muhammed Ali Karataş (2021403030)
+Tarih: 12 Kasım 2025
+Durum: ✅ HAZIR VE KULLANIMA UYGUN!
+
+================================================================================
