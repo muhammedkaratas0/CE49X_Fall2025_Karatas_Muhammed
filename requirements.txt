@@ -1,0 +1,10 @@
+feedparser==6.0.10
+supabase==2.3.0
+google-generativeai==0.3.2
+pandas==2.2.0
+python-dotenv==1.0.1
+matplotlib==3.8.2
+seaborn==0.13.2
+jupyter==1.0.0
+wordcloud==1.9.3
+networkx==3.2.1
